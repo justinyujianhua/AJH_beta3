@@ -1,0 +1,28 @@
+/*自定义css*/
+.navbar-custom{
+	background: url(../images/navbar-bg.png);
+	height: 110px;
+}
+.navbar-default {
+border-color: #fff;
+}
+.navbar-brand-custom{
+	padding: 27px 160px;
+}
+.navbar-right-custom{
+	padding-top: 26px;
+	padding-right: 150px;
+}
+.navbar-right-custom>li>a{
+	padding: 10px 0px;
+	margin: 0px 20px;
+}
+
+/*首页左侧边栏*/
+.bs-sidebar.affix {
+	position: fixed;
+	top: 155px;
+}
+.bs-sidebar.affix {
+width: 160px;
+}
