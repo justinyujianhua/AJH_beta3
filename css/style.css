@@ -7,7 +7,6 @@
          url('../fonts/myriadpro-regular.ttf') format('truetype'),
          url('../fonts/myriadpro-regular.svg#MyriadProRegular') format('svg');
 }
-
 /*自定义css*/
 .navbar-custom{
 	background: url(../images/navbar-bg.png);
@@ -18,7 +17,10 @@
 border-color: #fff;
 }
 .navbar-brand-custom{
-	padding: 27px 60px;
+	padding: 30px 50px;
+	margin-top:27px;
+	margin-left: 15px !important; 
+	background: url(../images/logo.png) no-repeat;
 }
 .navbar-right-custom{
 	padding-top: 26px;
