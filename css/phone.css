@@ -6,13 +6,16 @@
   }
   .navbar-brand-custom{
   	margin-top: 8px !important;
-	margin-left: 30px !important; 
-	background: url(../images/logo-phone.png) no-repeat;
+	  margin-left: 30px !important; 
+	  background: url(../images/logo-phone.png) no-repeat;
+  }
+  .main{
+    margin-top: 55px;
   }
   .sidebar{
     position: static;
-    margin-top: 120px;
-
+    margin-top: 0px;
+    background: #f1f1f1;
   }
   .pic{
   display: block;
@@ -22,6 +25,7 @@
   color: #acb4b8;
   }
   .ppt{
-    margin-top: 155px;
+    margin-top: 0px;
+    padding-top: 20px;
   }
 }

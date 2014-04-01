@@ -24,11 +24,14 @@ border-color: #fff;
 }
 .navbar-right-custom{
 	padding-top: 26px;
-	padding-right: 30px;
+	padding-right: 100px;
 }
 .navbar-right-custom>li>a{
 	padding: 10px 0px;
 	margin: 0px 20px;
+}
+.main{
+	margin-top: 110px;
 }
 
 /*首页左侧边栏*/
@@ -37,8 +40,10 @@ border-color: #fff;
 	top: 155px;
 	list-style: none;
 }
-.sidebar li a:hover{
+.sidebar li a:hover,
+.sidebar li a:focus{
 	text-decoration: none;
+    background-color: #fff;
 }
 .sidebar li a p{
 	margin-left: 48px;
@@ -47,6 +52,10 @@ border-color: #fff;
 	font-size: 16px;
 	font-family: 'MyriadPro';
 
+}
+
+.sidebar > li > a {
+padding: 0px;
 }
 .pic{
 	display: block;
@@ -96,12 +105,11 @@ border-color: #fff;
 }
 /*右侧main*/
 .ppt{
-	margin-top: 158px;
 	margin-left: 0px;
+	padding-top: 50px;
 }
 .poetry{
 	margin-top: 48px;
-	margin-right: -50px;
 	font-size: 12px;
 	line-height: 24px;
 }

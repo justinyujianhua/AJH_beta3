@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand navbar-brand-custom" href="#"></a>
+          <a class="navbar-brand navbar-brand-custom" href="index.html"></a>
         </div>
         <div class="hidden-xs">
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
@@ -55,32 +55,42 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="container main">
       <div class="row">
         <div class="col-md-3">
-          <ul class="sidebar collapse navbar-collapse">
+          <ul class="nav nav-stacked collapse navbar-collapse sidebar">
             <li>
-              <a href="#aboutme" title="aboutme"><div class="aboutme pic"><p>About Me</p></div></a> 
+              <a href="#aboutme" title="aboutme" data-toggle="tab"><span class="aboutme pic"><p>About Me</p></span></a> 
             </li>
             <li>
-              <a href="#" title="portfolio"><div class="portfolio pic"><p>Portfolio</p></div></a> 
+              <a href="#portfolio" title="portfolio" data-toggle="tab"><span class="portfolio pic"><p>Portfolio</p></span></a> 
             </li>
             <li>
-              <a href="#" title="blog"><div class="blog pic"><p>Blog</p></div></a> 
+              <a href="#blog" title="blog" data-toggle="tab"><span class="blog pic"><p>Blog</p></span></a> 
             </li>
             <li>
-              <a href="#" title="photography"><div class="photography pic"><p>Photography</p></div></a> 
+              <a href="#photography" title="photography" data-toggle="tab"><span class="photography pic"><p>Photography</p></span></a> 
             </li>
             <li>
-              <a href="#" title="contact"><div class="contact pic"><p>Contact</p></div></a> 
+              <a href="#contact" title="contact" data-toggle="tab"><span class="contact pic"><p>Contact</p></span></a> 
             </li>
             <li>
-              <a href="#" title="versionhistory"><div class="versionhistory pic"><p>VersionHistory</p></div></a> 
+              <a href="#versionhistory" title="versionhistory" data-toggle="tab"><span class="versionhistory pic"><p>VersionHistory</p></span></a> 
             </li>
           </ul>
         </div>
         <div class="col-md-8">
           <div class="ppt"><img class="img-responsive" src="images/index-banner/banner1.jpg"></div>
+           <div class="tab-content" >
+            <div class="tab-pane" id="aboutme">111</div>
+            <div class="tab-pane" id="portfolio">2222</div>
+            <div class="tab-pane" id="blog">333</div>
+            <div class="tab-pane" id="photography">444.</div>
+        </div>
+
+
+
+          
           <div class="poetry text-right">愿用 接近永恒的方式<br/>
 　　来收藏纪念自己 的心事<br/>
 　　以便多年后还记得 自己当时<br/>
@@ -88,6 +98,9 @@
         </div>
       </div>
     </div>  <!-- /container-->
+
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
