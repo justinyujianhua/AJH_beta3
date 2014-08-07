@@ -8,115 +8,26 @@
          url('../fonts/myriadpro-regular.svg#MyriadProRegular') format('svg');
 }
 /*自定义css*/
-.navbar-custom{
-	background: url(../images/navbar-bg.png);
-	height: 110px;
-	margin-bottom: 0px;
+a:hover{
+	text-decoration:none;
 }
-.navbar-default {
-border-color: #fff;
+/*顶部*/
+.topLine{
+	margin-top: -9px;
+	overflow: hidden;
 }
-.navbar-brand-custom{
-	padding: 30px 50px;
-	margin-top:27px;
-	margin-left: 15px !important; 
-	background: url(../images/logo.png) no-repeat;
+.login{
+	position: absolute;
+	top: 30px;
+	right: 46px;
 }
-.navbar-right-custom{
-	padding-top: 26px;
-	padding-right: 100px;
+.login-text{
+	color: #afafaf;
+	margin-left: -12px;
 }
-.navbar-right-custom>li>a{
-	padding: 10px 0px;
-	margin: 0px 20px;
+.Logo{
+	margin-top: 71px;
 }
-.main{
-	margin-top: 110px;
-}
-
-/*首页左侧边栏*/
-.sidebar{
-	position: fixed;
-	top: 155px;
-	list-style: none;
-}
-.sidebar li a:hover,
-.sidebar li a:focus{
-	text-decoration: none;
-    background-color: #fff;
-}
-.sidebar li a p{
-	margin-left: 48px;
-	padding-top: 5px;
-	width: 100px;
-	font-size: 16px;
-	font-family: 'MyriadPro';
-
-}
-
-.sidebar > li > a {
-padding: 0px;
-}
-.pic{
-	display: block;
-	width: 28px;
-	height: 28px;
-	margin-bottom: 32px;
-	color: #acb4b8;
-}
-.pic:hover{
-	color: #2f8fd5;
-}
-.aboutme{
-	background: url(../images/sidebar/index-default_aboutme.png) no-repeat;
-}
-.aboutme:hover{
-	background: url(../images/sidebar/index-highlight_aboutme.png) no-repeat;
-}
-.portfolio{
-	background: url(../images/sidebar/index-default_portfolio.png) no-repeat;
-}
-.portfolio:hover{
-	background: url(../images/sidebar/index-highlight_portfolio.png) no-repeat;
-}
-.blog{
-	background: url(../images/sidebar/index-default_blog.png) no-repeat;
-}
-.blog:hover{
-	background: url(../images/sidebar/index-highlight_blog.png) no-repeat;
-}
-.photography{
-	background: url(../images/sidebar/index-default_photography.png) no-repeat;
-}
-.photography:hover{
-	background: url(../images/sidebar/index-highlight_photography.png) no-repeat;
-}
-.contact{
-	background: url(../images/sidebar/index-default_contact.png) no-repeat;
-}
-.contact:hover{
-	background: url(../images/sidebar/index-highlight_contact.png) no-repeat;
-}
-.versionhistory{
-	background: url(../images/sidebar/index-default_versionhistory.png) no-repeat;
-}
-.versionhistory:hover{
-	background: url(../images/sidebar/index-highlight_versionhistory.png) no-repeat;
-}
-/*右侧main*/
-.ppt{
-	margin-left: 0px;
-	padding-top: 50px;
-}
-.poetry{
-	margin-top: 48px;
-	font-size: 12px;
-	line-height: 24px;
-}
-/*底部copyright*/
-.copyright{
-	margin-top: 100px;
-	font-size: 12px;
-	color: #848e92;
-	font-weight: lighter;
+.nav-custom{
+	margin-top: 67px;
 }
