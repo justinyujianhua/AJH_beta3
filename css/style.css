@@ -163,14 +163,35 @@ li{
 
 /*摄影*/
 .photography{
-	background:url(../images/bg/photo-bg1.png) repeat-x;
+	background:url(../images/bg/photo-bg1.png)  repeat-x;
 	height: 840px;
+
 }
 .photo{
-	background: url(../imags/bg/photo-bg2.png);
-	display: block;
-	width: 1000px;
-	height: 800px;
+	background: url(../images/bg/photo-bg2.png) no-repeat center;
+	text-align: center;
+	overflow: hidden;
+	height: 840px;
+	
+}
+.title1{
+	margin-top:36px; 
+	font-size: 18px;
+	color: #cccbcb;
+}
+.description1{
+	margin-top: 21px;
+	font-size: 14px;
+	color: #7c7b7b;
+}
+.ppt{
+	margin-top: 49px;
+}
+.ppt-img{
+	float: left;
+}
+.arr{
+	margin: 83px 38px 0px;
 }
 /*底部*/
 footer{
