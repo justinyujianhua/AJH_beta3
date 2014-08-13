@@ -6,6 +6,7 @@ a:hover{
 .topLine{
 	margin-top: -9px;
 	overflow: hidden;
+	text-align: center;
 }
 .login{
 	position: absolute;
@@ -163,16 +164,14 @@ li{
 
 /*摄影*/
 .photography{
-	background:url(../images/bg/photo-bg1.png)  repeat-x;
-	height: 840px;
-
+	background-image:url(../images/bg/photo-bg1.png);
 }
 .photo{
-	background: url(../images/bg/photo-bg2.png) no-repeat center;
+	background-image:url(../images/bg/photo-bg2.png);
 	text-align: center;
 	overflow: hidden;
 	height: 840px;
-	
+	position: relative;
 }
 .title1{
 	margin-top:36px; 
@@ -204,7 +203,62 @@ li{
 	margin-left: 400px;
 	margin-top: -100px;
 }
+/*视差box部分*/
+.box{
+			position:relative;
+			margin:0 auto;
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-attachment:fixed; /* 使背景图像相对于窗体固定 */
+			background-size:contain; /* 取值auto | cover | contain */
+			/* 背景图像的真实大小 */
+			/* 将背景图像等比缩放到完全覆盖容器，背景图像有可能超出容器 */
+			/* 将背景图像等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内 */
+		}
+/*文档部分*/
+.portfolio{
+	height: 552px;
+	background-image: url(../images/bg/portfoliobg.png);
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.port-article{
+	margin: 108px 30px 0;
+}
+.title2{
+	margin-top:52px; 
+	font-size: 18px;
+	color: #7c7b7b;
+}
+.description2{
+	margin-top: 31px;
+	color: #515151;
+}
+.photome{
+	margin-top: 80px;
+}
+/*关于部分*/
+.photome2{
+	margin-top: -100px；
+}
+.contact{
+	background: #140f16;
+	height: 696px;
+}
+.contactme{
+	background-image: url(../images/bg/contactbg.jpg);
+	height: 596px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.intro{
+	margin-top: 200px;
+}
 /*底部*/
 footer{
-	margin-top: 1000px;
+	color: #12365b;
+	font-size: 12px;
+	line-height: 22px;
 }
