@@ -2,6 +2,9 @@
 a:hover{
 	text-decoration:none;
 }
+ul{
+	list-style: none;
+}
 /*顶部*/
 .topLine{
 	margin-top: -9px;
@@ -21,6 +24,7 @@ a:hover{
 	margin-top: 71px;
 }
 .nav-custom{
+	margin-left: -21px;
 	list-style: none;
     margin-top: 64px;
 }
@@ -210,7 +214,7 @@ li{
 			background-repeat:no-repeat;
 			background-position:center center;
 			background-attachment:fixed; /* 使背景图像相对于窗体固定 */
-			background-size:contain; /* 取值auto | cover | contain */
+			background-size:auto; /* 取值auto | cover | contain */
 			/* 背景图像的真实大小 */
 			/* 将背景图像等比缩放到完全覆盖容器，背景图像有可能超出容器 */
 			/* 将背景图像等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内 */
@@ -219,6 +223,7 @@ li{
 .portfolio{
 	height: 552px;
 	background-image: url(../images/bg/portfoliobg.png);
+    background-position: center;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
@@ -236,11 +241,11 @@ li{
 	color: #515151;
 }
 .photome{
-	margin-top: 80px;
+	margin-top: 56px;
 }
 /*关于部分*/
 .photome2{
-	margin-top: -100px；
+	margin-top: -90px;
 }
 .contact{
 	background: #140f16;
@@ -254,11 +259,37 @@ li{
 	position: relative;
 }
 .intro{
-	margin-top: 200px;
+	margin-top: 30px;
+}
+.social{
+	float: left;
+	margin-top: -120px;
+	margin-left: -120px;
+}
+.social-list li{
+	margin: 30px 18px;
+}
+.versionhistory{
+	float: left;
+	margin-top: -120px;
+	margin-left: 60px;
+}
+.version-list li{
+	margin: 24px 16px;
+}
+.title3{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 35px;
+}
+.contact-icon{
+	padding-left: -50px;
 }
 /*底部*/
 footer{
 	color: #12365b;
 	font-size: 12px;
 	line-height: 22px;
+	margin-top: 30px;
 }
