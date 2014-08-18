@@ -214,7 +214,7 @@ li{
 			background-repeat:no-repeat;
 			background-position:center center;
 			background-attachment:fixed; /* 使背景图像相对于窗体固定 */
-			background-size:auto; /* 取值auto | cover | contain */
+			background-size:cover; /* 取值auto | cover | contain */
 			/* 背景图像的真实大小 */
 			/* 将背景图像等比缩放到完全覆盖容器，背景图像有可能超出容器 */
 			/* 将背景图像等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内 */
@@ -249,11 +249,11 @@ li{
 }
 .contact{
 	background: #140f16;
-	height: 696px;
+	height: 692px;
 }
 .contactme{
-	background-image: url(../images/bg/contactbg.jpg);
-	height: 596px;
+	background-image: url(../images/bg/contactbg1.jpg);
+	height: 692px;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
@@ -291,5 +291,5 @@ footer{
 	color: #12365b;
 	font-size: 12px;
 	line-height: 22px;
-	margin-top: 30px;
+	margin-top: 140px;
 }
