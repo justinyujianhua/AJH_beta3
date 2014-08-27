@@ -359,3 +359,29 @@ button:hover{
 	overflow: hidden;
 	text-align: center;
 }
+
+
+/********************sidebar*********************/
+.sidebar{
+	margin-top: 66px;
+}
+.sidebar-title{
+	font-size: 14px;
+	color: #494949;
+	font-weight:bold;
+	padding-left: 20px;
+}
+.hl1{
+	color: #e85151;
+}
+.hot-article-list{
+	font-size: 12px;
+	line-height: 36px;
+	color: #505050;
+	font-family: '宋体';
+	margin-top: 38px;
+	margin-left: -20px;
+}
+.hl2{
+	color: #14bfa1;
+}
