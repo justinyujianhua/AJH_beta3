@@ -1,116 +1,275 @@
-
 <!DOCTYPE html>
 <html lang="zh-cn">
+  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- custom style CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/phone.css" rel="stylesheet" media="(max-width:768px)">
-	
-
     <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+      <script src="../../docs-assets/js/ie8-responsive-file-warning.js">
+      </script>
+    <![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+    queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js">
+      </script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js">
+      </script>
     <![endif]-->
   </head>
-
+  
   <body>
-
-   <header>
-   <div class="container-fluid topLine">
-     <div class="row">
-          <img src="images/bg/topLine.png" draggable="false">
-     </div>
-   </div>
-
-   <div class="login">
-     <a href="">
+    <header>
+      <div class="container-fluid topLine">
         <div class="row">
-         <img src="images/bg/login.png">
-          <div class="login-text">
-            Turn on
+          <img src="images/bg/topLine.png" draggable="false">
+        </div>
+      </div>
+      <div class="login">
+        <a href="">
+          <div class="row">
+            <img src="images/bg/login.png">
+            <div class="login-text">
+              Turn on
+            </div>
           </div>
-        </div>  
-     </a>
-   </div>
-
-   <div class="container Logo-blog text-center">
+        </a>
+      </div>
+      <div class="container Logo-blog text-center">
         <div class="row">
           <div class="col-md-2 logo-blog-position">
-            <a href="index.html"><img src="images/blog/logo-blog.png"></a>
-          </div> 
+            <a href="index.html">
+              <img src="images/blog/logo-blog.png">
+            </a>
+          </div>
           <div class="col-md-6 col-md-offset-4">
-                     <ul class="nav-custom-blog">
-                        <li><a href="">写给过去的自己</a></li>
-                        <li><a href="">时光旅人</a></li>
-                        <li>
-                             <div  class="search">
-                               <span class="search-btn">
-                                   <button class="icon-blog-search" type="button"></button>  
-                               </span>
-                                  <input id="search" type="text" class="input-custom-blog" placeholder="Search you want...">
-                             </div><!-- /input-group -->
-                        </li>
-                      </ul>
-          </div>         
-        </div>
-   </div> 
-   <div class="container-fluid shadowLine">
-   		<img src="images/blog/shadowLine.png" draggable="false">
-   </div>
-   </header>
-   <div class="container">
-     <div class="row">
-        <div class="col-md-3 sidebar">
-          <div class="hot-article">
-            <div class="sidebar-title">热门<span class="hl1">文章</span></div>
-            <div class="hot-article-list">
-              <ul>
-                <a href=""><li>小鱼的行走| 城市的味道</li></a>
-                <li>90后用户调研---来自星星的90后 </li>
-                <li>Designer cafe 帝都讲座行—...  </li>
-                <li>Designer cafe 帝都讲座行—...  </li>
-                <li>APP Store 搜索排名ASO   </li>
-              </ul>
-            </div> 
+            <ul class="nav-custom-blog">
+              <li>
+                <a href="">
+                  写给过去的自己
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  时光旅人
+                </a>
+              </li>
+              <li>
+                <div class="search">
+                  <span class="search-btn">
+                    <button class="icon-blog-search" type="button">
+                    </button>
+                  </span>
+                  <input id="search" type="text" class="input-custom-blog" placeholder="Search you want...">
+                </div>
+                <!-- /input-group -->
+              </li>
+            </ul>
           </div>
         </div>
-     </div>
-     <div class="row">
-       <div class="col-md-3 sidebar">
-          <div class="catgory-list">
-            <div class="sidebar-title"><span class="hl2">分类</span>目录</div>
+      </div>
+      <div class="container-fluid shadowLine">
+        <img src="images/blog/shadowLine.png" draggable="false">
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row">
+            <div class="sidebar">
+              <div class="hot-article">
+                <div class="sidebar-title">
+                  热门
+                  <span class="hl1">
+                    文章
+                  </span>
+                </div>
+                <div class="hot-article-list">
+                  <ul>
+                    <a href="">
+                      <li>
+                        小鱼的行走| 城市的味道
+                      </li>
+                    </a>
+                    <li>
+                      90后用户调研---来自星星的90后
+                    </li>
+                    <li>
+                      Designer cafe 帝都讲座行—...
+                    </li>
+                    <li>
+                      Designer cafe 帝都讲座行—...
+                    </li>
+                    <li>
+                      APP Store 搜索排名ASO
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-       </div>
-     </div>
-   </div>
- 
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
-
-
+          <div class="row">
+            <div class="sidebar">
+              <div class="catgory-article">
+                <div class="sidebar-title">
+                  <span class="hl2">
+                    分类
+                  </span>
+                  目录
+                </div>
+                <div class="catgory-article-list">
+                  <ul>
+                    <a href="">
+                      <li>
+                        jquery/js
+                      </li>
+                    </a>
+                    <li>
+                      web前端
+                    </li>
+                    <li>
+                      Wordpress
+                    </li>
+                    <li>
+                      交互设计
+                    </li>
+                    <li>
+                      产品相关
+                    </li>
+                    <li>
+                      写给那些年的自己
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sidebar">
+              <div class="social-blog">
+                <div class="sidebar-title">
+                  <span class="hl3">
+                    社交
+                  </span>
+                  网络
+                </div>
+                <div class="social-blog-list">
+                  <ul>
+                    <a href="">
+                      <li>
+                        <img src="images/blog/icon_weibo.png">
+                      </li>
+                    </a>
+                    <a href="">
+                      <li>
+                        <img src="images/blog/icon_github.png">
+                      </li>
+                    </a>
+                    <a href="">
+                      <li>
+                        <img src="images/blog/icon_dribbble.png">
+                      </li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sidebar">
+              <a href="">
+                <div class="article-total">
+                  <div class="sidebar-article-title">
+                    文章列表
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+            <div class="row">
+                <div class="broadcast">
+                    <div class="icon-broadcast"><img src="images/blog/icon_broadcast.png"></div>
+                    <div class="broadcast-content">
+                      Hallo,大家好，欢迎来到郁小华的新版博客。我最近在弄再一版的博客包括主页，有了新的灵感，也会增加更多有意思的东西。
+                    </div>
+                    <img  class="dot-line" src="images/blog/dot-line.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="blog-article">
+                    <div class="blog-feature">
+                        <a href=""><img src="images/blog/blog_feature.jpg"></a>
+                    </div>
+                    <div class="blog-article-title">
+                        <a href="">摩登时代</a>
+                    </div>
+                    <div class="blog-article-time">
+                      2014-07-22
+                    </div>
+                    <div class="blog-article-content">
+                      不想承认其实很害怕无言以对 旧时的告别信还在叙述缄默的三两事  可以的话 真想再过一次这样的年岁 把我们都留在十六岁 美得无与伦比的时光如果思念是一种病 那么念旧是不是一种病 病入膏肓的或许不仅仅是自己 也希望是你   能够拥有就已足够幸雨    昨日梦见你 不想告诉你 森林深处光着脚丫踩进溪水 ...
+                    </div>
+                </div>
+                <div class="blog-article">
+                    <div class="blog-feature">
+                        <a href=""><img src="images/blog/blog_feature.jpg"></a>
+                    </div>
+                    <div class="blog-article-title">
+                        <a href="">摩登时代</a>
+                    </div>
+                    <div class="blog-article-time">
+                      2014-07-22
+                    </div>
+                    <div class="blog-article-content">
+                      不想承认其实很害怕无言以对 旧时的告别信还在叙述缄默的三两事  可以的话 真想再过一次这样的年岁 把我们都留在十六岁 美得无与伦比的时光如果思念是一种病 那么念旧是不是一种病 病入膏肓的或许不仅仅是自己 也希望是你   能够拥有就已足够幸雨    昨日梦见你 不想告诉你 森林深处光着脚丫踩进溪水 ...
+                    </div>
+                </div>    
+                <div class="blog-article">
+                    <div class="blog-feature">
+                        <a href=""><img src="images/blog/blog_feature.jpg"></a>
+                    </div>
+                    <div class="blog-article-title">
+                        <a href="">摩登时代</a>
+                    </div>
+                    <div class="blog-article-time">
+                      2014-07-22
+                    </div>
+                    <div class="blog-article-content">
+                      不想承认其实很害怕无言以对 旧时的告别信还在叙述缄默的三两事  可以的话 真想再过一次这样的年岁 把我们都留在十六岁 美得无与伦比的时光如果思念是一种病 那么念旧是不是一种病 病入膏肓的或许不仅仅是自己 也希望是你   能够拥有就已足够幸雨    昨日梦见你 不想告诉你 森林深处光着脚丫踩进溪水 ...
+                    </div>
+                </div>
+                <div class="more">
+                    <a href=""><img src="images/blog/more.png"></a>
+                    <img  class="over-line" src="images/blog/over-line.png">
+                </div>              
+            </div>
+            <footer>
+               <div class="text-center copyright1">
+                   Designed By Justin Yu
+                 <br>
+                 Copyright © AiJiaoHu.com 2013-2014 All Rights Reserved.晋ICP备13003860号
+               </div>
+             </footer>
+        </div>
+      </div>
+    </div>
     
+    <!-- Bootstrap core JavaScript==================================================-
+    ->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+  </body>
 
-
-
-  </body> 
 </html>

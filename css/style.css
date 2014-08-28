@@ -337,7 +337,7 @@ input:focus{
 	color:#867566;
 }
 .icon-blog-search{
-	background-image: url(../images/blog/icon-search.png);
+	background-image: url(../images/blog/icon_search.png);
 	width: 19px;
 	height: 19px;
 	background-color: transparent;
@@ -352,7 +352,7 @@ input:focus{
 	outline: none;
 }
 button:hover{
-	background-image: url(../images/blog/icon-search.png);
+	background-image: url(../images/blog/icon_search.png);
 }
 #search::-webkit-input-placeholder{ color:#b8b8b8; }
 .shadowLine{
@@ -382,6 +382,108 @@ button:hover{
 	margin-top: 38px;
 	margin-left: -20px;
 }
+.hot-article-list{
+	float: none;
+}
 .hl2{
 	color: #14bfa1;
+}
+.catgory-article-list{
+	font-size: 12px;
+	line-height: 36px;
+	color: #505050;
+	font-family: '宋体';
+	margin-top: 38px;
+	margin-left: -20px;
+}
+.catgory-article-list li{
+	float: none;
+}
+.hl3{
+	color: #52abea;
+}
+.social-blog-list{
+	font-size: 12px;
+	line-height: 36px;
+	color: #505050;
+	font-family: '宋体';
+	margin-top: 38px;
+	margin-left: -20px;
+}
+.social-blog-list li{
+	margin-right: 15px;
+}
+.article-total{
+	background:url(../images/blog/article-total.png);
+	width: 230px;
+	height: 40px;
+}
+.sidebar-article-title{
+	text-align: center;
+	line-height: 40px;
+	color: #9a928b;
+	font-size: 14px;
+	font-family: '宋体';
+	font-weight: bold;
+}
+/********************blogcontent*********************/
+.broadcast{
+	margin-top: 56px;
+}
+.icon-broadcast{
+	float: left;
+}
+.dot-line{
+	margin-left: -20px;
+	margin-top: 46px;
+}
+.broadcast-content{
+	margin-left: 40px;
+	line-height: 26px;
+	color: #494949;
+	font-size: 12px;
+}
+.blog-article{
+	margin-left: -20px;
+	margin-top: 75px;
+}
+.blog-article-title{
+	color: #494949;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 24px;
+	margin-left: 6px;
+	float: left;
+}
+.blog-article-title>a{
+	color: #494949;
+}
+.blog-article-time{
+	color: #b9b9b9;
+	font-family: '宋体';
+	margin-top: 29px;
+	text-align: right;
+	margin-right: 40px;
+	font-size: 12px;
+}
+.blog-article-content{
+	width: 750px;
+	font-size: 12px;
+	line-height: 36px;
+	color:#505050;
+	margin-top: 52px;
+	margin-left: 6px;
+}
+.more{
+	text-align: center;
+	margin-top: 103px;
+}
+.over-line{
+	margin-top: 40px;
+}
+.copyright1{
+	color: #b2b1b1;
+	font-weight: normal;
+	margin-top: 167px;
+	margin-bottom: 40px;
 }
