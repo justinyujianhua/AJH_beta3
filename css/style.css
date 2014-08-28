@@ -361,7 +361,7 @@ button:hover{
 }
 
 
-/********************sidebar*********************/
+/*侧边栏*/
 .sidebar{
 	margin-top: 66px;
 }
@@ -426,7 +426,7 @@ button:hover{
 	font-family: '宋体';
 	font-weight: bold;
 }
-/********************blogcontent*********************/
+/*博客内容*/
 .broadcast{
 	margin-top: 56px;
 }
@@ -486,4 +486,49 @@ button:hover{
 	font-weight: normal;
 	margin-top: 167px;
 	margin-bottom: 40px;
+}
+
+
+
+/********************single*********************/
+.big-figure{
+	text-align: center;
+	overflow: hidden;
+	margin-top: 30px;
+}
+#dot{
+	float: left;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+.bread-route{
+	margin-top: 30px;
+	color:#aeaeae;
+	font-size: 12px;
+}
+.single-title{
+	font-size: 36px;
+	color: #2e2e2e;
+    text-align: center;
+    margin-top: 22px;
+}
+.like-single{
+	text-align: right;
+	margin-top: -40px;
+}
+.single-time{
+	text-align: center;
+	color: #aeaeae;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.single-content{
+	text-align: center;
+}
+.content{
+	text-indent: 2em;
+    font-size: 14px;
+	line-height: 30px;
+	color: #323233;
+	margin-top: 135px;
 }
