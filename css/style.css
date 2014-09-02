@@ -532,3 +532,38 @@ button:hover{
 	color: #323233;
 	margin-top: 135px;
 }
+#fenge-line{
+	margin-top: 90px;
+}
+#share{
+	margin-top: -19px;
+}
+.single-position{
+	margin-top: 32px;
+}
+#single-position{
+	float: left;
+	margin-top: 3px;
+}
+.single-position span{
+	margin-left: 12px;
+	color: #323233;
+}
+.single-tags{
+	color: #aeaeae;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.copyright2{
+	color:#b2b1b1;
+	font-size: 12px;
+	margin-top: 140px;
+	margin-bottom: 40px;
+}
+#scrollUp{
+	bottom: 108px;
+	right: 60px;
+	height: 54px;
+	width: 54px;
+	background: url(../images/blog/back-top.png) no-repeat;
+}
